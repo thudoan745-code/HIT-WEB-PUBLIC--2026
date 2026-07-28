@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial;
+    text-align:center;
+}
+.card{
+    width:350px;
+    background-color:white;
+    border:1px solid gray;
+    border-radius:20px;
+    padding:20px;
+    margin:40px auto;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:3px solid royalblue;
+    margin-bottom:15px;
+}
+h1{
+    color:darkblue;
+    text-transform:uppercase;
+    font-size:2rem;
+    font-weight:bold;
+}
+.card > p{
+    color: gray;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.personal_information p{
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.skills{
+    margin: 20px 0;
+}
+.skills span{
+    display: inline-block;
+    border: 2px solid royalblue;
+    color: royalblue;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin: 5px;
+}
+.buttons{
+    margin-top: 20px;
+}
+button{
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:first-child{
+    background-color: royalblue;
+    color: white;
+    border: none;
+}
+button:last-child{
+    background-color: white;
+    color: royalblue;
+    border: 2px solid royalblue;
+}
