@@ -1,0 +1,147 @@
+/* Xóa khoảng trắng mặc định */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background-color:#FFF8F2;
+
+}
+
+/* Tiêu đề */
+
+h1{
+
+    text-align:center;
+
+    margin-top:50px;
+
+    margin-bottom:50px;
+
+    color:#444;
+
+}
+
+/* Chứa 3 card */
+
+.container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+/* Card */
+
+.card{
+
+    width:280px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+
+    transition:0.3s;
+
+}
+
+/* Icon */
+
+.icon{
+
+    font-size:60px;
+
+    color:#FF8A65;
+
+    margin-bottom:20px;
+
+    transition:0.3s;
+
+}
+
+/* Tiêu đề trong card */
+
+.card h2{
+
+    margin-bottom:15px;
+
+}
+
+/* Mô tả */
+
+.card p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+/* Nút */
+
+button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#FF8A65;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+/* Hover card */
+
+.card:hover{
+
+    background:#FFD6E8;
+
+}
+
+/* Hover icon */
+
+.card:hover .icon{
+
+    color:#E91E63;
+
+}
+
+/* Hover button */
+
+.card:hover button{
+
+    background:#E91E63;
+
+}
+
+/* Hover chữ */
+
+.card:hover h2{
+
+    color:#E91E63;
+
+}
