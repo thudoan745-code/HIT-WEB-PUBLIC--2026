@@ -1,0 +1,114 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f2f2f2;
+    font-family:Arial;
+    padding:30px;
+}
+
+/* =========================
+   GRID CONTAINER
+========================= */
+
+.container{
+
+    display:grid;              /* Grid Container : */
+
+    grid-template-columns:200px 1fr 200px;
+    /* Có 3 cột */
+
+    grid-template-rows:80px 200px 150px 80px;
+    /* Có 4 hàng */
+
+    gap:20px;
+    /* Grid Gap */
+
+}
+
+/* =========================
+      GRID ITEMS
+========================= */
+
+.header{
+    background:#ff7675;
+
+    /* Grid Area bằng Grid Line */
+
+    grid-column:1 / 4;
+    /* từ line 1 đến line 4 */
+
+    grid-row:1 / 2;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sidebar{
+    background:#74b9ff;
+
+    grid-column:1 / 2;
+
+    grid-row:2 / 4;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content{
+    background:#55efc4;
+
+    /* Chiếm 2 cột */
+
+    grid-column:2 / 4;
+
+    grid-row:2 / 3;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box1{
+    background:#ffeaa7;
+
+    grid-column:2 / 3;
+
+    grid-row:3 / 4;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box2{
+    background:#a29bfe;
+
+    grid-column:3 / 4;
+
+    grid-row:3 / 4;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer{
+    background:#636e72;
+    color:white;
+
+    grid-column:1 / 4;
+
+    grid-row:4 / 5;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
